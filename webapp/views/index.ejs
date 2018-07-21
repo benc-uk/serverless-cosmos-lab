@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <h2>Analyzed Photos</h2>
+    <table cellspacing="0">
+      <% for(let photo of photoResults) {%>
+        <tr> 
+          <td class="center" width="65%"><img src="<%= photo.url %>" width="100%"></td>
+          <td>
+            <h3><%= photo.caption %></h3> 
+            <%= photo.confidence %>% confidence<br><br>
+            <% for(let tag of photo.tags) { %> <%= tag %>, <% } %> 
+          </td> 
+        </tr>
+      <% } %>
+    </table>
+
+    <br/>
+    <footer>Ben Coleman, 2018</footer>
+  </body>
+</html>

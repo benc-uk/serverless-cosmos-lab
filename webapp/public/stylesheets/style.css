@@ -1,0 +1,35 @@
+body {
+  padding: 20px;
+  font: 19px "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #222;
+  color: #ddd;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  padding: 5px;
+  color: #00B7FF
+}
+
+h2 {
+  background-color: #333;
+  padding: 5px;
+  color: #eee
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 3px #00B7FF;
+}
+
+.center {
+  text-align: center;
+  column-width: 90%;
+}
+
+img {
+  box-shadow: 0px 10px 18px 2px rgba(0,0,0,0.82);
+}
