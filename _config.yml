@@ -2,7 +2,7 @@ title: Cognitive Services Lab
 remote_theme: benc-uk/theme-msdark
 buttons:
   - button2:
-    text: Home
+    text: Intro
     href: /serverless-cosmos-lab
   - button2:
     text: Full Guide
