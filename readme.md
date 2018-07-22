@@ -33,4 +33,4 @@ The guide steps through deploying and configuring the complete end to end soluti
 # Main Step by Step Guide
 The guide consists of step by step instructional videos
 
-[Go To The Full Guide](guide){: .btn .btn-blue}
+[Go To The Full Guide](guide){: .btn-blue}
