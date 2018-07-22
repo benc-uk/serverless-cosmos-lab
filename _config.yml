@@ -1,2 +1,3 @@
 title: Cognitive Services Lab
-theme: jekyll-theme-cayman
+remote_theme: benc-uk/theme-msdark
+#theme: jekyll-theme-cayman
