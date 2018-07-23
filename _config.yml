@@ -1,6 +1,7 @@
 title: Cognitive Services Lab
 remote_theme: benc-uk/theme-msdark
 favicon: https://overview.azureedge.net/cdn/Azure%20Cognitive%20Services.png
+hide_github: true
 buttons:
   - button2:
     text: Intro
