@@ -8,3 +8,9 @@ buttons:
   - button2:
     text: Full Guide
     href: /serverless-cosmos-lab/guide
+
+header-colours: 
+  right: "rgb(227,0,140)"
+  left: "rgb(50,20,90)"
+
+icon: fas fa-eye
