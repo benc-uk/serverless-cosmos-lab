@@ -10,7 +10,7 @@ buttons:
     href: /serverless-cosmos-lab/guide
 
 header-colours: 
-  right: "rgb(227,0,140)"
-  left: "rgb(50,20,90)"
+  right: "rgb(204, 77, 4)"
+  left: "rgb(50, 20, 90)"
 
 icon: fas fa-eye
