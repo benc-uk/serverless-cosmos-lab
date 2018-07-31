@@ -10,12 +10,16 @@ const client = new documentClient(process.env.DB_ENDPOINT, {
 // ====================================================================================================
 router.get('/', function(req, res, next) {
   // Check database & collection settings
-  if(!process.env.DB_NAME || !process.env.DB_COLLECTION) {
-    sendError(res, new Error("App settings DB_NAME or DB_COLLECTION are missing"));
-    return;
+  if(!process.env.DB_NAME) {
+    process.env.DB_NAME = "mydb";
+  }
+  if(!process.env.DB_COLLECTION) {
+    process.env.DB_COLLECTION = "photos";
   }
 
   const collectionUrl = ("/dbs/"+process.env.DB_NAME+"/colls/"+process.env.DB_COLLECTION);
+  console.log(collectionUrl);
+  
   let photoResults = [];
 
   // Query docs for photos with URL in reverse time order
@@ -59,9 +63,11 @@ function titleCase(str) {
 // Simple error page wrapper
 // ====================================================================================================
 function sendError(res, error) {
+  console.dir(error);
+  
   res.render('error', { 
     message: error.message,
-    error: error
+    error: JSON.stringify(error, null, 2)
   });
 }
 
