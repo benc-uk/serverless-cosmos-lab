@@ -1,8 +1,4 @@
----
-title: Cognitive Services Lab
----
-
-# Introduction
+# Cognitive Services Lab
 This is a hands on lab guide for Azure. In this lab you will deploy a serverless application which uses Azure Cognitive Services to analyze photos gathered from twitter. An Azure Logic App drives the process and carries out most of the tasks. 
 
 The Logic App flow is:
