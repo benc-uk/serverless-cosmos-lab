@@ -1,13 +1,6 @@
 title: Cognitive Services Lab
 remote_theme: benc-uk/theme-msdark
 favicon: https://overview.azureedge.net/cdn/Azure%20Cognitive%20Services.png
-buttons:
-  - button2:
-    text: Intro
-    href: /serverless-cosmos-lab
-  - button2:
-    text: Full Guide
-    href: /serverless-cosmos-lab/guide
 
 header-colours: 
   right: "rgb(204, 77, 4)"
